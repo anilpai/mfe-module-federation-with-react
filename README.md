@@ -9,8 +9,8 @@ yarn install
 yarn start
 ```
 
-Host runs at http://localhost:3000 (live reload only)
-Remote1 runs at http://localhost:3001 (HMR supported)
+Host runs at <http://localhost:3000> (live reload only)
+Remote1 runs at <http://localhost:3001> (HMR supported)
 
 ## How it works
 
@@ -21,3 +21,9 @@ Remote1 is hosted port 3001 and exposes 2 components Heading and Button.
 The exposed components are used in Host.
 
 The project also uses React Router to show that routing logic works just like a normal React app
+
+# Windows setup
+
+```
+npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"
+```
